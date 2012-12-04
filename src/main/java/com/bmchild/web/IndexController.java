@@ -15,6 +15,11 @@ public class IndexController {
 	@Autowired
 	private AwesomeService awesomeService;
 	
+	/**
+	 * New Comment
+	 * @param model
+	 * @return
+	 */
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public ModelAndView index(Model model) {
 		ModelAndView mav = new ModelAndView("index");
