@@ -16,7 +16,7 @@ public class IndexController {
 	private AwesomeService awesomeService;
 	
 	/**
-	 * New Comment
+	 * New Comment and blah blah blah
 	 * @param model
 	 * @return
 	 */
